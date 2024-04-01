@@ -1,0 +1,40 @@
+.container100{
+    /* background-color: teal; */
+    /* color: wheat; */
+    margin: 50px;
+    padding: 50px;
+}
+.card101{
+    background-color: whitesmoke;
+    margin-right: 50px;
+    border: 2px solid rgb(130, 101, 171);
+}
+.card102{
+    background-color: whitesmoke;
+    /* margin-right: 100px; */
+    margin-left: 50px !important;
+    border: 2px solid rgb(130, 101, 171);
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container100{
+        /* background-color: teal; */
+        /* color: wheat; */
+        margin: 0px;
+        padding: 0px;
+    }
+    .card101{
+        background-color: whitesmoke;
+        margin-right: 0px;
+        border: 2px solid rgb(130, 101, 171);
+    }
+    .card102{
+        background-color: whitesmoke;
+        /* margin-right: 100px; */
+        margin-left: 0px !important;
+        border: 2px solid rgb(130, 101, 171);
+    
+    }
+      }
